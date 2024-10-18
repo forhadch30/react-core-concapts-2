@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Friends.css"
 import Friend from "./Friend";
 const Friends = () => {
-
+    
     const [friends, setFriends] = useState([])
 
     useEffect(() => {

@@ -1,7 +1,9 @@
 import './App.css'
 import Counter from './Counter'
+import Counter1 from './Counter1'
 import Friends from './Friends'
-import Posts from './Posts'
+import Photos from './Photos'
+// import Posts from './Posts'
 import Team from './Team'
 import User from './User'
 function App() {
@@ -14,9 +16,10 @@ function App() {
   return (
     <>
       <h1>React Core 2</h1>
+    <Counter1></Counter1>
+      <Photos></Photos>
 
-      <Posts></Posts>
-
+      {/* <Posts></Posts> */}
 
       <ol>
         <li>Components</li>

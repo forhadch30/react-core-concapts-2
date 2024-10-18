@@ -11,9 +11,9 @@ const Posts = () => {
 
     return (
         <div className="box">
-            <h2>Posts: {posts.length}</h2>
+            <h2>Posts: {posts.slice(0,50).length}</h2>
             {
-                posts.map(post =><Post post={post}></Post>)
+                posts.slice(0,50).map(post =><Post post={post}></Post>)
             }
         </div>
     );
